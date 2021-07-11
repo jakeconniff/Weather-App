@@ -1,43 +1,63 @@
 body{
-    background:rgb(0, 183, 255);
+    background: rgb(0, 154, 215);
     color: white;
     font-size: 72px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #interface{
+    background:rgb(0, 183, 255);
     width: 70%;
-    float: left;
+    padding: 10px;
+    display: flex;
+    float: center;
+    flex-direction:column;
+    border-radius: 50px;
+}
+
+.graphics{
+    flex-direction:row;
 }
 
 #city{
     width: 70%;
     padding: 20px;
     float: left;
-    font-size:48px;
+    font-size:28px;
+}
+
+.main-info{
+    flex-direction:column;
+}
+
+.weather{
+    flex-direction:column;
 }
 
 #weather-image{
     width:20%;
-    float: left;
 }
 
  #weather-type{
-     font-size: 32px;
-     float: right;
+     font-size: 28px;
+     width:30%;
+     float:right;
  }
 
  #temp{
-     font-size: 70px;
-     padding: 20px;
+     font-size: 90px;
+     padding: 5px;
+     width: 70%;
+     float:left;
  }
 
  button{
      border-color:white;
      border: solid;
      padding: 20px;
-     border-radius: 20px;
+     border-radius: 10px;
      color: white;
      background: rgb(0, 126, 175);
      font-size: 20px;
+     align-self:center;
  }

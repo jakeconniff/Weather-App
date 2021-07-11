@@ -9,11 +9,16 @@
 </head>
 <body>
     <div id="interface">
-        <div id='city'>CITY</div><img id='weather-image' src="" alt="Image not found">
-        <br>
-        <div id='weather-type'>NULL</div>
-        <span id='temp'>0 F</span>
-        <br>
+        <div class='graphics'>
+            <div class='main-info'>
+                <div id='city'>CITY</div>
+                <span id='temp'>0 F</span>
+            </div>
+            <div class='weather'>
+                <img id='weather-image' src="" alt="Image not found">
+                <div id='weather-type'>NULL</div>
+            </div>
+        </div>
         <button id='temp-scale' onClick='switchScales()'>Switch to Celsius</button>
     </div>
     <script src="app.js"></script>
